@@ -59,7 +59,7 @@ gpgcheck=0
 #### Now we need to configure the master and the nodes
 
 
-##MASTER NODE
+## MASTER NODE
 
 #### Install etcd service
 `# yum install -y etcd`
