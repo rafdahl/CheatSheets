@@ -1,10 +1,10 @@
-### Title: Kubernetes installion guide
-### Purpose:
+## Title: Kubernetes installion guide
+## Purpose:
 Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
 
-### Prerequisites:
+## Prerequisites:
 
-
+## Information/Overview
 #### Defined VM's: 1 master and 3 minions (nodes)
 - Kube-master
 - Kube-node1
