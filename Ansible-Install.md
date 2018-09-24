@@ -18,10 +18,12 @@
 `# chronyc tracking`
 
 #### Update the /etc/hosts file with all the nodes and master of each one
+```
 192.168.0.223   kube-master
 192.168.0.224   kube-node1
 192.168.0.225   kube-node2
 192.168.0.226   kube-node3
+```
 
 #### Now we need to add the docker repo to each of the nodes and master. On **each machine**  edit the following file
 `# vi /etc/yum.repos.d/virt7.docker-common-release.repo`
