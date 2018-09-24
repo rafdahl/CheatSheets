@@ -114,8 +114,9 @@ KUBE_ETCD_SERVERS="--etcd-servers=http://kube-master:2379"      <-- added
 ```
 
 `# vi /etc/kubernetes/kubelet`
+
+### MODIFY and/or UNCOMMENT lines
 ```
-MODIFY and/or UNCOMMENT lines
 KUBELET_ADDRESS="--address=0.0.0.0"
 KUBELET_PORT="--port=10250"
 KUBELET_HOSTNAME="--hostname-override=kube-node1"              <-- match node name
@@ -128,7 +129,9 @@ KUBELET_API_SERVER="--api-servers=http://kube-master:8080"
 
 #### Now we need to enable and start the 3 services
 `# systemctl enable kube-proxy kubelet docker`
+
 `# systemctl start kube-proxy kubelet docker`
+
 `# systemctl status kube-proxy kubelet docker | grep "(running)" | wc -l`
 
 
