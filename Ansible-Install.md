@@ -96,6 +96,7 @@ KUBELET_PORT="--kubelet-port=10250"
 
 #### Now we need to enable and start our services NOTE: MUST BE IN THIS ORDER
 `# systemctl enable etcd kube-apiserver kube-controller-manager kube-scheduler`
+
 `# systemctl start etcd kube-apiserver kube-controller-manager kube-scheduler`
 
 #### Verify all 4 services are running
