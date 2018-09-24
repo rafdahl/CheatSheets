@@ -1,4 +1,4 @@
-## Title: **Kubernetes installion guide**
+## Title: Kubernetes installion guide
 ## Purpose:
 Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
 
@@ -59,10 +59,8 @@ gpgcheck=0
 `# yum install -y --enablerepo=virt7-docker-common-release kubernetes docker`
 
 
-#### Now we need to configure the master and the nodes
-
-
 ## MASTER NODE
+#### Now we need to configure the Master Node
 
 #### Install etcd service
 `# yum install -y etcd`
@@ -112,6 +110,7 @@ KUBELET_PORT="--kubelet-port=10250"
 
 
 ## NODES
+#### Now time to configure each node
 
 #### On each node
 `# vi /etc/kubernetes/config`
