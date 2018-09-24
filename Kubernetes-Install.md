@@ -1,4 +1,4 @@
-## Title: Kubernetes installion guide
+## Title: **Kubernetes installion guide**
 ## Purpose:
 Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
 
