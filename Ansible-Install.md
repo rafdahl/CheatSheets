@@ -1,10 +1,8 @@
-#### Edit Task List
+### Purpose
+Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
 
-- [ ] Information Edited
-- [ ] Format Completed
-- [ ] Completed
 
-#### This install will have *1* master and *3* minions (nodes)
+#### This install will have 1 master and 3 minions (nodes)
 - Kube-master
 - Kube-node1
 - Kube-node2
