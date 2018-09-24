@@ -73,7 +73,7 @@ gpgcheck=0
 
 #### ADD or MODIFY the following lines:
 ```
-KUBE_MASTER="--master=http://kube-master:8080"                          <-- modified
+KUBE_MASTER="--master=http://kube-master:8080"                  <-- modified
 KUBE_ETCD_SERVERS="--etcd-servers=http://kube-master:2379"      <-- added
 ```
 
