@@ -1,5 +1,9 @@
-### Purpose
+### Title: Kubernetes installion guide
+### Purpose:
 Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
+
+### Prerequisites:
+
 
 #### Defined VM's: 1 master and 3 minions (nodes)
 - Kube-master
@@ -7,7 +11,7 @@ Install kubernetes on 4 VM's, 1 Master and 3 Nodes or minions.
 - Kube-node2
 - Kube-node3
 
-### Instructions
+## Procedures
 
 #### On the master and all the nodes make sure we are using the same time zone
 `# timedatectl set-timezone America/Phoenix`
