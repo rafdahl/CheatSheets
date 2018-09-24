@@ -12,6 +12,7 @@
 
 #### On the master and all the nodes make sure we are using the same time zone
 `# timedatectl set-timezone America/Phoenix`
+
 `# timedatectl`
 
 #### Verify time services are running, either chronyd or ntpd. I will use chronyd since it is installed with the initial install
@@ -42,11 +43,13 @@ gpgcheck=0
 #### Make sure we are not running firewalld or iptables
 
 `# systemctl status firewalld`
+
 `# systemctl status iptables`
 
 
 #### On our boxes firewalld was running so we need to stop is and disable it from starting at bood
 `# systemctl stop firewalld`
+
 `# systemctl disable firewalld`
 
 #### Now we are going to enable the new repo and install kubernetes and docker
