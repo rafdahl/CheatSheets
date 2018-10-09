@@ -29,7 +29,7 @@ Select NEXT
 - Press "i" for insert mode
 - Paste activation output into new the new file
 
-NOTE: Make sure now empty lines on top or bottom of text
+  NOTE: Make sure now empty lines on top or bottom of text
 
 - Press <SHIFT>+ZZ   <- This will save and close the newly created file
 
