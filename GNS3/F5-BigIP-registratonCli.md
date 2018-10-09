@@ -1,4 +1,4 @@
-1. Fill out to get Registration Key from F5
+**1. Fill out to get Registration Key from F5**
 
 (https://downloads.f5.com/trial/)
 
