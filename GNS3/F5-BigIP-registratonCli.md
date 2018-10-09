@@ -1,14 +1,14 @@
-**1. Fill out to get Registration Key from F5**
+**1. Fill out the follwing form to get a Registration Key from F5**
 
 https://downloads.f5.com/trial/
 
-**2. Log into F5 BIG-IP using cli**
+**2. Log into F5 BIG-IP using the cli**
 ```
 User:root
 PW: default
 ```
 
-**3. Run dossier command to get output hash**
+**3. Run the dossier command to get an output hash**
 
 `> get_dossier -b ABCDE-ABCDE-ABCDE-ABCDE-ABCDEFG   <-- use reg key mailed to you for trial`
 
@@ -16,7 +16,7 @@ PW: default
 
 **5. Log into F5 license website and paste the dossier output**
 
-(https://activate.f5.com/license)
+https://activate.f5.com/license
 
 Select NEXT
 
