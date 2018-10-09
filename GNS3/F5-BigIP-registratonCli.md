@@ -1,3 +1,17 @@
+## Title: F5 Register Trial Key by CLI
+## Purpose:
+Install the registration key using the cli vs the web gui. Using vnc in gns3 can cause issues not being able to cut & paste so its best to just juse the cli as a last resort.
+
+## Information/Overview
+Have gns3 up and running and using the F5 appliance with BIGIP VE installed. I have this running and connected to a switch. Also using firefox tiny linux for the GUI access when needed.
+
+## Prerequisites:
+- F5 appliance installed
+- F5 BIGIP VE installed
+- BIGIP running on gns3
+
+## Procedures
+
 **1. Fill out the follwing form to get a Registration Key from F5**
 
 https://downloads.f5.com/trial/
