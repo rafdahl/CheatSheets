@@ -27,7 +27,7 @@ Select NEXT
 `> vi /config/bigip.license`
 
 - Press "i" for insert mode
-- Paste activation output into new the new file
+- Paste activation output into the new file
 
   NOTE: Make sure now empty lines on top or bottom of text
 
