@@ -1,6 +1,12 @@
 # Cisco CCENT/CCNA ICND1 100-105
 
-## Network Fundamentals
+# 1.0 Network Fundamentals (15% of score)
+# 2.0 LAN Switching Technologies (21% of score)
+# 3.0 Routing Technologies (23% of score)
+# 4.0 WAN Technologies (10% of score)
+# 5.0 Infrastructure Services (10% of score)
+# 6.0 Infrastructure Security (11% of score)
+# 7.0 Infrastructure Management (10% of score)
 
 ### Network Switch
 
