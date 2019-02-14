@@ -7,7 +7,7 @@ ASA# capture capin interface inside match ip 10.0.0.0 255.255.255.0 192.168.0.0 
 ASA# no capture capin interface inside
 ASA# show cap capin
  
-ASA# capture capout interface outside match ip 10.247.148.0 255.255.255.0 172.20.133.0 255.255.255.0
+ASA# capture capout interface outside match ip 10.0.0.0 255.255.255.0 172.1.1.0 255.255.255.0
 ASA# no capture capout interface outside
 ASA# show cap capout
 
