@@ -13,5 +13,5 @@ ASA# show cap capout
 
 
 Outut in format showing everything so can be copied
-# more system:running-config
+more system:running-config
 
