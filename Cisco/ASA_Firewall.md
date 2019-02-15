@@ -29,6 +29,7 @@ ASA# no capture capin interface inside
 
 ***real-time:*** Display in realtime, **BE CAREFULL** !!!!!!
 
+
 ***NOTE: Display options***
 
 ***access-list:*** Display packets that match access-list
@@ -40,6 +41,9 @@ ASA# no capture capin interface inside
 ***dump:*** Display Hex data for each packet
 
 ***packet-number:*** Display starting at a certain packet number
+
+
+  https://<ip address of asa>/capture/<capname>/pcap
 
 
 Outut in format showing everything so can be copied
