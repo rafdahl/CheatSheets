@@ -45,7 +45,7 @@ ASA# no capture capin interface inside
 
 To retreive the trace in a browser to the local PC for viewing in wireshark the following command can be run:
 ```
-https:\/\/\<ip address of asa\>\/capture\/\<capname\>\/pcap
+https://<ip address of asa>/capture/<capname>/pcap
 ```
 
 Outut in format showing everything so can be copied
