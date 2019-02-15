@@ -16,7 +16,13 @@ Delete the capture
 ```
 ASA# no capture capin interface inside
 ```
- 
+
+***NOTE: OPTIONS***
+**access-list** :Capture packets that match access-list
+**buffer** :Default is 512kb but can go up to 32mb
+**circular-buffer** :Overwrite buffer when full
+**headers-only** : Capture only L2, L3 and L4
+**real-time** :Display in realtime, **BE CAREFULL** !!!!!!
 
 
 Outut in format showing everything so can be copied
