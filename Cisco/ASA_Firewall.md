@@ -17,7 +17,7 @@ Delete the capture
 ASA# no capture capin interface inside
 ```
 
-***NOTE: OPTIONS***
+***NOTE: Capture options***
 
 ***access-list:*** Capture packets that match access-list
 
@@ -29,6 +29,17 @@ ASA# no capture capin interface inside
 
 ***real-time:*** Display in realtime, **BE CAREFULL** !!!!!!
 
+***NOTE: Display options***
+
+***access-list:*** Display packets that match access-list
+
+***count:*** Lets you display number of packets
+
+***detail:*** Display more details about each packet
+
+***dump:*** Display Hex data for each packet
+
+***packet-number:*** Display starting at a certain packet number
 
 
 Outut in format showing everything so can be copied
