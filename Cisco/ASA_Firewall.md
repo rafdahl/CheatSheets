@@ -16,6 +16,10 @@ Delete the capture
 ```
 ASA# no capture capin interface inside
 ```
+To retreive the trace in a browser to the local PC for viewing in wireshark the following command can be run:
+```
+https://<ip address of asa>/capture/<capname>/pcap
+```
 
 ***NOTE: Capture options***
 
@@ -33,12 +37,6 @@ ASA# no capture capin interface inside
 ***detail:*** Display more details about each packet\
 ***dump:*** Display Hex data for each packet\
 ***packet-number:*** Display starting at a certain packet number
-
-
-To retreive the trace in a browser to the local PC for viewing in wireshark the following command can be run:
-```
-https://<ip address of asa>/capture/<capname>/pcap
-```
 
 Outut in format showing everything so can be copied
 more system:running-config
