@@ -23,19 +23,15 @@ ASA# no capture capin interface inside
 ***buffer:*** Default is 512kb but can go up to 32mb\
 ***circular-buffer:*** Overwrite buffer when full\
 ***headers-only:*** Capture only L2, L3 and L4\
-***real-time:*** Display in realtime, **BE CAREFULL** !!!!!!\
+***real-time:*** Display in realtime, **BE CAREFULL** !!!!!!
 
 
 ***NOTE: Display options***
 
-***access-list:*** Display packets that match access-list
-
-***count:*** Lets you display number of packets
-
-***detail:*** Display more details about each packet
-
-***dump:*** Display Hex data for each packet
-
+***access-list:*** Display packets that match access-list\
+***count:*** Lets you display number of packets\
+***detail:*** Display more details about each packet\
+***dump:*** Display Hex data for each packet\
 ***packet-number:*** Display starting at a certain packet number
 
 
