@@ -43,8 +43,10 @@ ASA# no capture capin interface inside
 ***packet-number:*** Display starting at a certain packet number
 
 
-  https:\/\/\<ip address of asa\>\/capture\/\<capname\>\/pcap
-
+To retreive the trace in a browser to the local PC for viewing in wireshark the following command can be run:
+```
+https:\/\/\<ip address of asa\>\/capture\/\<capname\>\/pcap
+```
 
 Outut in format showing everything so can be copied
 more system:running-config
